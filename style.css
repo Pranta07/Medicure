@@ -22,3 +22,18 @@ h6 {
 h1 {
     font-weight: 600;
 }
+.button {
+    padding: 7px 25px;
+    background-color: #458ff6;
+}
+/* Services */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 100px 60px rgba(0, 0, 0, 0.03);
+}
+.card:hover {
+    box-shadow: 0 10px 80px rgba(0, 0, 0, 0.09);
+}
+.card-title {
+    font-weight: bold;
+}
