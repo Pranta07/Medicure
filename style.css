@@ -37,3 +37,22 @@ h1 {
 .card-title {
     font-weight: bold;
 }
+
+/* Media-queries */
+/* tablet */
+@media only screen and (max-width: 767px) {
+    .section-intro {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .wash-hands {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .wash-img {
+        padding: 0 !important;
+    }
+    .wash-img img {
+        height: 300px;
+    }
+}
