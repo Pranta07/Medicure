@@ -38,6 +38,19 @@ h1 {
     font-weight: bold;
 }
 
+/* footer */
+footer {
+    background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+.list {
+    font-size: 13px;
+    list-style: none;
+    padding: 0;
+}
+.list li:hover {
+    color: black;
+}
+
 /* Media-queries */
 /* tablet */
 @media only screen and (max-width: 767px) {
