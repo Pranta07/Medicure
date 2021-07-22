@@ -41,18 +41,28 @@ h1 {
 /* Media-queries */
 /* tablet */
 @media only screen and (max-width: 767px) {
+    /* social-distancing */
     .section-intro {
         text-align: center;
         padding-top: 20px;
     }
-    .wash-hands {
+    .social-distance {
         display: flex;
         flex-direction: column-reverse;
     }
+    /* wash-hands */
     .wash-img {
         padding: 0 !important;
     }
     .wash-img img {
         height: 300px;
+    }
+    /* donate-blood */
+    .donation-heading {
+        margin-top: 30px;
+    }
+    .blood-donate {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
