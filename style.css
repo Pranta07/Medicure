@@ -58,6 +58,10 @@ footer {
 /* Media-queries */
 /* tablet */
 @media only screen and (max-width: 767px) {
+    /* carousel */
+    .item-intro {
+        padding-left: 0 !important;
+    }
     /* social-distancing */
     .section-intro {
         text-align: center;
