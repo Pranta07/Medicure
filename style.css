@@ -55,6 +55,15 @@ footer {
     border-radius: 10px;
 }
 
+/* covid-portal-styles */
+.case-section {
+    background: #ffffff url("assets/img/right-corona-bg.png") no-repeat right;
+}
+
+.prevention-section {
+    background: #ffffff url("assets/img/left-corona-bg.svg") no-repeat;
+}
+
 /* Media-queries */
 /* tablet */
 @media only screen and (max-width: 767px) {
