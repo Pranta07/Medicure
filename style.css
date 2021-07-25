@@ -26,10 +26,18 @@ h1 {
     padding: 7px 25px;
     background-color: #458ff6;
 }
+
+/* navbar */
+.nav-link:hover {
+    color: rgb(182, 179, 179);
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
 /* Services */
 .card {
     border-radius: 10px;
-    box-shadow: 0 100px 60px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 100px 60px rgba(0, 0, 0, 0.05);
 }
 .card:hover {
     box-shadow: 0 10px 80px rgba(0, 0, 0, 0.09);
@@ -50,21 +58,29 @@ footer {
 .list li:hover {
     color: black;
 }
-
 .radius {
     border-radius: 10px;
+}
+.case:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
 }
 
 /* covid-portal-styles */
 .case-section {
-    background: #ffffff url("assets/img/right-corona-bg.png") no-repeat right;
+    background: url("assets/img/right-corona-bg.png") no-repeat right;
 }
 
 .prevention-section {
-    background: #ffffff url("assets/img/left-corona-bg.svg") no-repeat;
+    background: url("assets/img/left-corona-bg.svg") no-repeat;
+}
+
+.symptoms-section {
+    background: url("assets/img/Symptoms-Corona-bg.png") no-repeat right;
 }
 
 /* Media-queries */
+
 /* tablet */
 @media only screen and (max-width: 767px) {
     /* carousel */
@@ -94,5 +110,10 @@ footer {
     .blood-donate {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    /* covid-portal */
+    .symptoms-img img {
+        width: 80%;
     }
 }
