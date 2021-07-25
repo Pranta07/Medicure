@@ -76,7 +76,7 @@ footer {
 }
 
 .symptoms-section {
-    background: url("assets/img/Symptoms-Corona-bg.png") no-repeat right;
+    background: url("assets/img/Symptoms-Corona-bg.png") no-repeat right top;
 }
 
 /* Media-queries */
@@ -113,7 +113,7 @@ footer {
     }
 
     /* covid-portal */
-    .symptoms-img img {
+    .portal-img img {
         width: 80%;
     }
 }
