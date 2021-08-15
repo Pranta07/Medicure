@@ -90,7 +90,7 @@
                                 </li>
                                 <li class="nav-item px-2">
                                     <a class="nav-link active" href="#">
-                                        <small>Join Us</small>
+                                        <small id="join-us">Join Us</small>
                                     </a>
                                 </li>
                                 <li class="nav-item px-2">
@@ -195,7 +195,7 @@
         </header>
         <main>
             <!-- find donors section -->
-            <section class="container my-4">
+            <section id="find-donors-section" class="container my-4">
                 <h1 class="text-center">
                     Find <span class="text-danger">Donors</span>
                 </h1>
@@ -247,6 +247,118 @@
                     <button class="btn btn-primary mt-3">Search</button>
                 </div>
             </section>
+
+            <!-- Registration-section -->
+            <section class="container pt-1" id="reg-form">
+                <div class="row mx-auto">
+                    <div
+                        class="
+                            col-10 col-md-8
+                            mx-auto
+                            p-5
+                            alert-info
+                            rounded
+                            my-5
+                        "
+                    >
+                        <h1 class="text-center fw-bold mb-3">
+                            Register as a
+                            <span class="text-danger">Blood</span> Donor
+                        </h1>
+                        <hr
+                            class="
+                                w-50
+                                mx-auto
+                                text-danger
+                                border border-2 border-danger
+                                rounded
+                            "
+                        />
+                        <div class="mb-3">
+                            <label
+                                for="formGroupExampleInput"
+                                class="form-label mb-0"
+                                >Your Name<span class="text-danger"
+                                    >*</span
+                                ></label
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="formGroupExampleInput"
+                                placeholder="Enter your name"
+                            />
+                        </div>
+                        <div class="mb-3">
+                            <label
+                                for="formGroupExampleInput2"
+                                class="form-label mb-0"
+                                >Your Email<span class="text-danger"
+                                    >*</span
+                                ></label
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="formGroupExampleInput2"
+                                placeholder="Enter your email"
+                            />
+                        </div>
+                        <div class="mb-3">
+                            <label
+                                for="formGroupExampleInput2"
+                                class="form-label mb-0"
+                                >Your contact number<span class="text-danger"
+                                    >*</span
+                                ></label
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="formGroupExampleInput2"
+                                placeholder="Enter phone number"
+                            />
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputPassword4" class="form-label mb-0"
+                                >Set your Password<span class="text-danger"
+                                    >*</span
+                                ></label
+                            >
+                            <input
+                                type="password"
+                                class="form-control"
+                                id="inputPassword4"
+                                placeholder="Set a password"
+                            />
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputPassword4" class="form-label mb-0"
+                                >Reenter your Password<span class="text-danger"
+                                    >*</span
+                                ></label
+                            >
+                            <input
+                                type="password"
+                                class="form-control"
+                                id="inputPassword4"
+                                placeholder="Retype your password"
+                            />
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button
+                                id="reg-submit"
+                                class="btn btn-danger w-50 mt-4"
+                            >
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- update-info-section -->
+            <section></section>
         </main>
         <!-- Footer-section -->
         <footer id="about" class="bg-dark">
@@ -320,6 +432,7 @@
                 </div>
             </section>
         </footer>
+        <script src="js/blood-donation.js"></script>
         <!-- javascript bundle -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
