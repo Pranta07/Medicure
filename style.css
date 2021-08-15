@@ -121,4 +121,9 @@ footer {
     .portal-img img {
         width: 80%;
     }
+
+    /* blood-donation reg form */
+    .reg-div {
+        padding: 20px !important;
+    }
 }
