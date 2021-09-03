@@ -1,0 +1,1 @@
+URL Format => https://randomuser.me/api/?results=50&inc=gender,name,email,location,dob,phone,cell,picture
