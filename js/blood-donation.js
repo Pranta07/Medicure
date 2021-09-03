@@ -10,6 +10,7 @@ const hide = (id) => {
 
 // hide-reg-form
 hide("reg-form");
+hide("spinner");
 
 // handling join us button
 document.getElementById("join-us").addEventListener("click", function () {
@@ -20,6 +21,8 @@ document.getElementById("join-us").addEventListener("click", function () {
 
 //fetch random users
 document.getElementById("search-donors").addEventListener("click", () => {
+    document.getElementById("random-donors").innerHTML = "";
+    display("spinner");
     fetch(
         "https://randomuser.me/api/?results=50&inc=gender,name,email,location,dob,phone,cell,picture"
     )
@@ -28,7 +31,7 @@ document.getElementById("search-donors").addEventListener("click", () => {
 });
 
 const showUsers = (users) => {
-    // console.log(users);
+    hide("spinner");
     users.forEach((user) => {
         // console.log(user);
         const imgUrl = user.picture.large;
