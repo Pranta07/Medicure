@@ -1,0 +1,5 @@
+for bangaldesh covid19 update => https://covid-api.mmediagroup.fr/v1/cases?country=Bangladesh
+
+for all history => https://covid-api.mmediagroup.fr/v1/history?country=Bangladesh&status=deaths or confirmed or deaths
+
+for vaccines info => https://covid-api.mmediagroup.fr/v1/vaccines?country=Bangladesh
