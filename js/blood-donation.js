@@ -14,8 +14,9 @@ hide("spinner");
 
 // handling join us button
 document.getElementById("join-us").addEventListener("click", function () {
-    hide("find-donors-section");
     hide("carouselExampleIndicators");
+    hide("find-donors-section");
+    document.getElementById("random-donors").innerHTML = ""; //clears searches
     display("reg-form");
 });
 
