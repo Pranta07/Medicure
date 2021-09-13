@@ -127,3 +127,10 @@ footer {
         padding: 20px !important;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    #donor-reg-box {
+        margin: 0 !important;
+        padding: 10px !important;
+    }
+}
